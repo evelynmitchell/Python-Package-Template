@@ -29,6 +29,7 @@ python = "^3.10"
 # Add development dependencies here
 
 
+
 [tool.poetry.group.lint.dependencies]
 ruff = "^0.7.1"
 types-toml = "^0.10.8.1"
