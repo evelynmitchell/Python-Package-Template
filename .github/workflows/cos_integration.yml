@@ -20,6 +20,9 @@ jobs:
       - name: Install dependencies
         run: pip install --no-cache-dir -r requirements.txt
 
+      - name: install coverage 
+        run: pip install pytest-cov pylint sphinx
+
       - name: Run unit tests
         run: pytest tests/unit
 
