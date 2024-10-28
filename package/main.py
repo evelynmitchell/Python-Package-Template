@@ -1,5 +1,6 @@
 # write a hello world main function
 def main():
+    """ Main function """
     print("Hello, World!")
 
 if __name__ == "__main__":
