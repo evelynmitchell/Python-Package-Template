@@ -11,6 +11,7 @@ Functions:
 from package import main  # Replace 'your_module' with the actual module name
 
 def test_main_output(capsys):
-	main.main()
-	captured = capsys.readouterr()
-	assert captured.out == "Hello, World!\n"
+    """ Tests the output of the main function. """
+    main.main()
+    captured = capsys.readouterr()
+    assert captured.out == "Hello, World!\n"

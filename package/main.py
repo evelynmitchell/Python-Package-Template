@@ -1,4 +1,6 @@
-# write a hello world main function
+"""
+Main function
+"""
 def main():
     """ Main function """
     print("Hello, World!")
