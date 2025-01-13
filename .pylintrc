@@ -180,6 +180,7 @@ disable=
     self-assigning-variable,
     unexpected-keyword-arg,
 
+overgeneral-exceptions=builtins.Exception
 
 [REPORTS]
 
